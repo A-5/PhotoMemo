@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/paintColor"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="選択された色"/>
+        <ImageView
+            android:id="@+id/nowColor"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_margin="6dp"/>
+    </LinearLayout>
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2">
+
+        <TableRow
+            android:id="@+id/tableRow0">
+            <ImageView
+                android:id="@+id/colorIsBlack"
+                android:layout_height="60dp"
+                android:layout_margin="6dp"
+                android:background="@color/black"/>
+            <ImageView
+                android:id="@+id/colorIsRed"
+                android:layout_height="60dp"
+                android:layout_margin="6dp"
+                android:background="@color/red"/>
+            <ImageView
+                android:id="@+id/colorIsGreen"
+                android:layout_height="60dp"
+                android:layout_margin="6dp"
+                android:background="@color/green"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1">
+            <ImageView
+                android:id="@+id/colorIsWhite"
+                android:layout_height="60dp"
+                android:layout_margin="6dp"
+                android:background="@color/white"/>
+            <ImageView
+                android:id="@+id/colorIsBlue"
+                android:layout_height="60dp"
+                android:layout_margin="6dp"
+                android:background="@color/blue"/>
+            <ImageView
+                android:id="@+id/colorIsYellow"
+                android:layout_height="60dp"
+                android:layout_margin="6dp"
+                android:background="@color/yellow"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+
+

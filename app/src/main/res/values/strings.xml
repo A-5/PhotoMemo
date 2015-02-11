@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Hello World!</string>
+
+    <string name="app_name">フォトメモ - 基本形</string>
+    <string name="message_no_function">その機能は未実装です</string>
+    <string name="menu_paintwidth">線の太さ</string>
+    <string name="menu_paintcolor">線の色</string>
+
+</resources>
